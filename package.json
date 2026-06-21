@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "connect-redis": "^8.1.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.5.2",
+    "express-session": "^1.18.1",
+    "https-localhost": "^4.7.1",
+    "multer": "^2.0.1",
+    "nodemailer": "^7.0.3",
+    "redis": "^5.1.0",
+    "sql.js": "^1.14.1",
+    "svg-captcha": "^1.4.0",
+    "typescript": "^5.9.3",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.7",
+    "ts-node": "^10.9.2"
+  }
+}

@@ -114,7 +114,7 @@ function mirrorIndices(indices, cols, rows) {
 
 //загрузить утилиту
 const loadUtils = async (arr) => {
-  const { addRandomTextures } = await import('../my-vue-app/src/utilit/gameUtils.ts');
+  const { addRandomTextures } = await import('/utilit/gameUtils.ts');
   let rnd = JSON.parse(addRandomTextures(...arr));
   return rnd;
 };
